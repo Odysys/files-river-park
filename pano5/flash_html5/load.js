@@ -71,7 +71,7 @@ info.innerHTML="To view virtual tour properly, Flash Player 9.0.28 or later vers
 initFlash();
 }
 function initFlash(){
-var so = new SWFObject("PWViewer.swf", "sotester", "640", "480", "9.0.0", "#FFFFFF"); 
+var so = new SWFObject("PWViewer.swf", "sotester", "100%", "480", "9.0.0", "#FFFFFF"); 
  so.addParam("allowNetworking", "all"); 
  so.addParam("allowScriptAccess", "always"); 
  so.addParam("allowFullScreen", "true"); 
